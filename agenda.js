@@ -1,4 +1,3 @@
-let objetoEjercicio={};
 let contactos = [
     {
         id: 1240,
@@ -59,4 +58,22 @@ function eliminarContacto(nombre, apellido, telefono) {
             contador++;
         }
     });
+}
+
+let arreglo = [1, 2, 3, 4, 5, 6];
+arreglo[4] = 'NuevoValor'
+
+
+
+function agregarValorArray(valor) {
+    arreglo.push(valor);
+    console.log(arreglo);
+}
+
+let objeto = { propiedad: 'valor', miFuncion: agregarValorArray };
+objeto['propiedad'] = 'NuevoValor'
+
+function agregarValor(propiedad, valor) {
+    objeto[propiedad] = valor;
+    console.log(objeto);
 }
