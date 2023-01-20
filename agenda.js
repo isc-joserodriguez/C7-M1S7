@@ -71,6 +71,8 @@ function agregarValorArray(valor) {
 }
 
 let objeto = { propiedad: 'valor', miFuncion: agregarValorArray };
+
+objeto['miFuncion']('asfasdf')
 objeto['propiedad'] = 'NuevoValor'
 
 function agregarValor(propiedad, valor) {
